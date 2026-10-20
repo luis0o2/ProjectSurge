@@ -1,0 +1,25 @@
+{
+  "name": "Project Surge",
+  "serveAddress": "127.0.0.1",
+  "servePort": 34872,
+  "servePlaceIds": [86553638021727],
+  "tree": {
+    "$className": "DataModel",
+    "$ignoreUnknownInstances": true,
+    "ReplicatedStorage": {
+      "$ignoreUnknownInstances": true,
+      "ProjectSurge": { "$path": "src/shared" }
+    },
+    "ServerScriptService": {
+      "$ignoreUnknownInstances": true,
+      "ProjectSurge": { "$path": "src/server" }
+    },
+    "StarterPlayer": {
+      "$ignoreUnknownInstances": true,
+      "StarterPlayerScripts": {
+        "$ignoreUnknownInstances": true,
+        "ProjectSurge": { "$path": "src/client" }
+      }
+    }
+  }
+}
